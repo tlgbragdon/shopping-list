@@ -2,10 +2,7 @@ $(document).ready( function () {
 
    $('#js-shopping-list-form').submit(function(event){
 
-   		console.log( 'handler for submit')
-   		console.log ('data: ' + $('input').val())
    		event.preventDefault();
-  
 
     	// add new item to end of shopping list:
     	$('.shopping-list').append(
